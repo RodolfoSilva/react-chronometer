@@ -1,0 +1,21 @@
+.Control {
+  margin-top: 20px;
+}
+
+.Control button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+
+.Control button + button {
+  margin-left: 10px;
+}
+
+.Control button:hover {
+  border-bottom-color: #000;
+}

@@ -1,0 +1,17 @@
+.Time {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 10px 40px;
+  background-color: rgba(51, 178, 202, .3);
+  font-size: 40px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.Time:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 33px;
+  background: rgba(255, 255, 255, .2);
+}
